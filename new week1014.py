@@ -29,4 +29,5 @@ for sides in range(8, 100, 8):
 #  between the values calculated by the arcimedes function and by math.pi.
 #  How many sides does i take to make the two close?
 
-
+for sides in range(40, 400, 40):
+    print(sides, archimedes(sides))
