@@ -31,3 +31,15 @@ for sides in range(8, 100, 8):
 
 for sides in range(40, 400, 40):
     print(sides, archimedes(sides))
+
+print(math.pi)
+
+# it takes 360000000
+
+# Accumulators
+
+acc = 0
+for val in range(1, 6, 1):
+    acc = acc + val
+
+print(acc)
